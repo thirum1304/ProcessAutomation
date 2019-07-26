@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Default suite">
+  <test verbose="2" name="Default test">
+    <classes>
+      <class name="common.BrowserOpen"/>
+    </classes>
+  </test>
+  <test name="Login">
+    <classes>
+      <class name="testcase.Login"/>
+    </classes>
+  </test>
+  <test name="Admin">
+    <classes>
+      <class name="testcase.Admin"/>
+    </classes>
+   
+   </test> 
+    <test name="AdminPageIcons">
+    <classes>
+      <class name="testcase.AdminPageIcons"/>
+    </classes>
+   
+   </test> <!-- Default test -->
+  
+</suite>

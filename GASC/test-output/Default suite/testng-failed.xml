@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]">
+  <test name="AdminPageIcons(failed)" preserve-order="true">
+    <classes>
+      <class name="testcase.AdminPageIcons">
+        <methods>
+          <include name="Adminpageicons"/>
+        </methods>
+      </class> <!-- testcase.AdminPageIcons -->
+      <class name="testcase.Login">
+        <methods>
+          <include name="log"/>
+          <include name="exit"/>
+        </methods>
+      </class> <!-- testcase.Login -->
+    </classes>
+  </test> <!-- AdminPageIcons(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
